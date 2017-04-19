@@ -1,19 +1,21 @@
 <?php
 
-/*
-//Base de datos
+
+//Datos de acceso local
 $serverhost = "localhost";
 $username = "root";
 $password = "";
 $dbname = "prau";
-*/
 
-//Base de datos
+
+
+/* Datos de acceso remotos
+
 $serverhost = "localhost";
 $username = "root";
 $password = "3spartaco";
 $dbname = "inaem43";
-
+*/
 
 // Create connection
 $conn = mysqli_connect($serverhost, $username, $password);
